@@ -4,7 +4,7 @@ This tool analyzes gait patterns from side-view videos of walking patients using
 
 ## Demo
 
-[Placeholder for GIF or Video Demo]
+https://github.com/user-attachments/assets/8a7494c0-91d0-483e-bdd4-6f00227b30ea
 
 ## Features
 
