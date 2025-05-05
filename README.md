@@ -1,6 +1,6 @@
 # Gait Analyzer Tool
 
-This tool analyzes gait patterns from side-view videos of walking patients using YOLOv11-pose estimation. It allows users to interactively review video frames, adjust key joint points, calculate relevant angles, and save the results.
+This tool analyzes gait patterns from side-view videos of walking patients using YOLOv11-pose estimation. It allows users to interactively review video frames, adjust key joint points, calculate relevant angles, and save the results. Once the models are downloaded, the app runs entirely on-device without requiring network access, to ensure HIPAA compliance. Created over an Easter weekend for my mother, who needed to analyze a dataset of videos for her research study.
 
 ## Demo
 
@@ -27,14 +27,18 @@ https://github.com/user-attachments/assets/8a7494c0-91d0-483e-bdd4-6f00227b30ea
 
 ## Requirements
 
-*   Python 3
+*   Python 3 ([Download here](https://www.python.org/downloads/))
 *   OpenCV (`opencv-python`)
 *   NumPy (`numpy`)
 *   Ultralytics YOLO (`ultralytics`)
 
 ## Installation
 
-1.  Clone the repository (if applicable).
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/JakeBoggs/Gait-Analyzer.git
+    cd Gait-Analyzer
+    ```
 2.  Install the required dependencies:
     ```bash
     pip install opencv-python numpy ultralytics
